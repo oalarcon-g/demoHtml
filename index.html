@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		* {
+			position: relative;
+		}
+		.body {
+			margin: 0px 0px 0px 0px;
+			background-color: #E5E5E5;
+		}
+		.header {
+			position: fixed;
+			width: 100%;
+			z-index: -2;
+			height: 500px;
+			background-image: linear-gradient(-45deg, #d0a2d0, #a2a2d0);
+		}
+		svg.background {
+			position: fixed;
+		}
+
+		div.transparent {
+			height: 450px;
+		}
+		div.avatar  div {
+			background-image: url('assets/images/Minnie.Chan_400x400.jpg');
+		}
+		div.avatar {
+			padding: 10px;
+			/*border: white 8px  solid;*/
+			border-radius: 300px;
+			background-color: #b9a2d0;
+			width: 600px;
+			height: 600px;
+			z-index: 0;
+			margin: 100px auto 0px auto;
+			position: relative;
+		}
+		.content {
+			align-content: center;
+		}
+
+		.section {
+			z-index: 0;
+			box-shadow: 0 8px 16px -6px grey;
+			border-radius: 25px;
+			margin: 0px 40px 40px 40px;
+			height: 450px;
+			background-color: white;
+		}
+
+	</style>
+</head>
+<body class="body">
+	<content class="content">
+		<header class="header">
+			<svg class="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			width="700" height="500" viewBox="0 0 700 500">
+			    <circle cx="0" cy="0" r="400"
+			            stroke="#d9b3d9"
+			            stroke-width="3"
+			            fill="#d9b3d9"
+			            />
+			</svg>
+			<div class="avatar">
+				<div></div>
+			</div>
+		</header>
+		<div class="transparent"></div>
+		<section class="section sub-header"></section>
+		<section class="section"></section>
+		<section class="section"></section>
+		<section class="section"><a href="timeline.html">Anchor</a></section>
+	</content>
+</body>
+</html>
